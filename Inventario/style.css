@@ -1,0 +1,312 @@
+body {
+  background-color: #e0f7fa;
+}
+
+.card {
+  background-color: #d1c4e9;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #9575cd;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.btn-submit {
+  background-color: #7e57c2;
+  color: white;
+  border: none;
+}
+
+.btn-submit:hover {
+  background-color: #673ab7;
+}
+
+label {
+  color: #5d5c61;
+}
+
+.snow {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #b970f5;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 10px white);
+}
+
+.snow:nth-child(1) {
+  opacity: 0.8;
+  transform: translate(10vw, -10px);
+  animation: fall-1 25s linear infinite;
+}
+
+@keyframes fall-1 {
+  35% {
+    transform: translate(30vw, 35vh);
+  }
+
+  to {
+    transform: translate(50vw, 100vh);
+  }
+}
+
+.snow:nth-child(2) {
+  opacity: 0.5;
+  transform: translate(20vw, -10px) scale(1);
+  animation: fall-2 20s linear infinite;
+}
+
+@keyframes fall-2 {
+  35% {
+    transform: translate(40vw, 45vh) scale(1);
+  }
+
+  to {
+    transform: translate(60vw, 100vh) scale(1);
+  }
+}
+
+.snow:nth-child(3) {
+  opacity: 0.3;
+  transform: translate(70vw, 35vh) scale(0.2);
+  animation: fall-3 20s linear infinite;
+}
+
+@keyframes fall-3 {
+  35% {
+    transform: translate(80vw, 65vh) scale(0.2);
+  }
+
+  to {
+    transform: translate(90vw, 100vh) scale(0.2);
+  }
+}
+
+.snow:nth-child(4) {
+  opacity: 1;
+  transform: translate(90vw, 10vh) scale(0.9);
+  animation: fall-4 20s linear infinite;
+}
+
+@keyframes fall-4 {
+  35% {
+    transform: translate(70vw, 65vh) scale(0.7);
+  }
+
+  to {
+    transform: translate(50vw, 100vh) scale(0.9);
+  }
+}
+
+.snow:nth-child(5) {
+  opacity: 1;
+  transform: translate(10vw, 20vh) scale(0.9);
+  animation: fall-5 15s linear infinite;
+}
+
+@keyframes fall-5 {
+  35% {
+    transform: translate(30vw, 65vh) scale(0.7);
+  }
+
+  to {
+    transform: translate(50vw, 100vh) scale(0.9);
+  }
+}
+
+.snow:nth-child(6) {
+  opacity: 0.6;
+  transform: translate(45vw, 20vh) scale(0.8);
+  animation: fall-6 20s linear infinite;
+}
+
+@keyframes fall-6 {
+  35% {
+    transform: translate(65vw, 65vh) scale(0.8);
+  }
+
+  to {
+    transform: translate(85vw, 100vh) scale(0.8);
+  }
+}
+
+.snow:nth-child(7) {
+  opacity: 1;
+  transform: translate(55vw, 80vh) scale(0.9);
+  animation: fall-7 20s linear infinite;
+}
+
+@keyframes fall-7 {
+  35% {
+    transform: translate(35vw, 55vh) scale(1);
+  }
+
+  to {
+    transform: translate(15vw, 100vh) scale(1);
+  }
+}
+
+.snow:nth-child(8) {
+  opacity: 1;
+  transform: translate(30vw, -5vh) scale(1);
+  animation: fall-8 20s linear infinite;
+}
+
+@keyframes fall-8 {
+  35% {
+    transform: translate(50vw, 65vh) scale(1);
+  }
+
+  to {
+    transform: translate(70vw, 100vh) scale(1);
+  }
+}
+
+.snow:nth-child(9) {
+  opacity: 0.9;
+  transform: translate(60vw, 20vh) scale(0.7);
+  animation: fall-9 20s linear infinite;
+}
+
+@keyframes fall-9 {
+  35% {
+    transform: translate(40vw, 10vh) scale(0.7);
+  }
+
+  to {
+    transform: translate(20vw, 100vh) scale(0.7);
+  }
+}
+
+.snow:nth-child(10) {
+  opacity: 1.5;
+  transform: translate(50vw, 30vh) scale(0.8);
+  animation: fall-10 20s linear infinite;
+}
+
+@keyframes fall-10 {
+  35% {
+    transform: translate(70vw, 50vh) scale(0.8);
+  }
+
+  to {
+    transform: translate(90vw, 100vh) scale(0.8);
+  }
+}
+
+.snow:nth-child(11) {
+  opacity: 0.7;
+  transform: translate(15vw, -10px) scale(0.4);
+  animation: fall-11 18s linear infinite;
+}
+
+@keyframes fall-11 {
+  35% {
+    transform: translate(25vw, 40vh) scale(0.4);
+  }
+
+  to {
+    transform: translate(35vw, 100vh) scale(0.4);
+  }
+}
+
+.snow:nth-child(12) {
+  opacity: 0.4;
+  transform: translate(35vw, 5vh) scale(0.6);
+  animation: fall-12 22s linear infinite;
+}
+
+@keyframes fall-12 {
+  35% {
+    transform: translate(55vw, 50vh) scale(0.6);
+  }
+
+  to {
+    transform: translate(75vw, 100vh) scale(0.6);
+  }
+}
+
+.snow:nth-child(13) {
+  opacity: 0.5;
+  transform: translate(75vw, 15vh) scale(0.3);
+  animation: fall-13 24s linear infinite;
+}
+
+@keyframes fall-13 {
+  35% {
+    transform: translate(65vw, 55vh) scale(0.3);
+  }
+
+  to {
+    transform: translate(55vw, 100vh) scale(0.3);
+  }
+}
+
+.snow:nth-child(14) {
+  opacity: 0.8;
+  transform: translate(5vw, -10px) scale(0.5);
+  animation: fall-14 19s linear infinite;
+}
+
+@keyframes fall-14 {
+  35% {
+    transform: translate(25vw, 60vh) scale(0.5);
+  }
+
+  to {
+    transform: translate(45vw, 100vh) scale(0.5);
+  }
+}
+
+.snow:nth-child(15) {
+  opacity: 0.6;
+  transform: translate(85vw, 10vh) scale(0.7);
+  animation: fall-15 21s linear infinite;
+}
+
+@keyframes fall-15 {
+  35% {
+    transform: translate(75vw, 70vh) scale(0.7);
+  }
+
+  to {
+    transform: translate(65vw, 100vh) scale(0.7);
+  }
+}
+
+.resumen-compra {
+  background-color: #7e57c2;
+  /* Color morado similar al botón */
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 300px;
+  /* Mantiene el ancho similar a la tarjeta */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resumen-compra h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.list-group-item.resumen-item {
+  background-color: #d1c4e9;
+  /* Fondo morado claro */
+  color: #4b306e;
+  /* Texto morado oscuro */
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
